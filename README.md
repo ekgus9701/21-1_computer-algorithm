@@ -26,6 +26,13 @@
 4 자기보다 작거나 같은 막대기의 개수 구하기
 ```
 
+##### 5단원
+```
+1 selection, insertion, shell sort
+2 bubble sort 
+
+```
+
 ##### report1
 ```
 1 단일연결리스트를 이용한 구현 보충
