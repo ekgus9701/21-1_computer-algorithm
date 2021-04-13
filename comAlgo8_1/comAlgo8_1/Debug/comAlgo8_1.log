@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\lg\source\repos\comAlgo8_1\comAlgo8_1\main.c(24,52): warning C4013: 'getch'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\lg\source\repos\comAlgo8_1\comAlgo8_1\main.c(46,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  comAlgo8_1.vcxproj -> C:\Users\lg\source\repos\comAlgo8_1\Debug\comAlgo8_1.exe
