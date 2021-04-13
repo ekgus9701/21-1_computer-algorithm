@@ -103,6 +103,7 @@ void main() {
 	insertItem(&heap, 11);
 	insertItem(&heap, 9);
 	
+	
 	printHeap(&heap);
 
 	int lastnode = findLastNode(&heap, 10);
