@@ -24,7 +24,7 @@ void insertion_sort(int list[], int n) {
 		save = list[i];
 		for (j = i - 1; j >= 0 && list[j] > save; j--)
 			list[j + 1] = list[j];
-		list[j + 1] = save;
+		list[j+1 ] = save;
 	}
 }
 

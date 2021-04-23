@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-#define SIZE 6
+#define SIZE 8
 #define MAX_ELEMENT 100
 
 typedef struct {
@@ -15,10 +15,7 @@ void initStack(StackType* stack) {
 }
 
 int isEmpty(StackType* stack) {
-	if (stack->top < 0)
-		return 1;
-	else
-		return 0;
+	return (stack->top < 0);
 }
 
 void push(StackType* stack, int value) {
@@ -27,7 +24,8 @@ void push(StackType* stack, int value) {
 }
 
 int pop(StackType* stack) {
-	return stack->s[(stack->top)--];
+	int k= stack->s[stack->top--];
+	return k;
 }
 
 void spans(int X[], int S[]) {
@@ -36,7 +34,7 @@ void spans(int X[], int S[]) {
 	
 	for (int i = 0; i < SIZE; i++) {
 		
-		while (!isEmpty(&A) && (X[A.top] <= X[i])) {
+		while (!isEmpty(&A) && (X[A.s[A.top]] <= X[i])) {
 			pop(&A);
 		}
 		
@@ -46,7 +44,7 @@ void spans(int X[], int S[]) {
 		
 
 		else {
-			S[i] = i - (A.top);
+			S[i] = i - (A.s[A.top]);
 		}
 		printf("%d : %d  %d\n", i, S[i], A.top);
 		push(&A,i);
@@ -58,7 +56,7 @@ void spans(int X[], int S[]) {
 }
 
 void main() {
-	int X[SIZE] = { 6,3,4,2,5,3 };
+	int X[SIZE] = { 6,3,4,1,2,3,5,4 };
 	int S[SIZE] = { 0 };
 	
 	spans(X, S);

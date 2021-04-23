@@ -96,8 +96,8 @@ void main() {
 	insertItem(&heap, 2);
 	printHeap(&heap);
 
-	//printf("deleted key: %d\n", removeMin(&heap));
-	//printHeap(&heap);
+	printf("deleted key: %d\n", removeMin(&heap));
+	printHeap(&heap);
 	heapSort(&heap, list);
 	printArray(list, heap.heap_size);
 

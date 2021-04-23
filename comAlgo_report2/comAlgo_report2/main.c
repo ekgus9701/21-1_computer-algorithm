@@ -104,6 +104,7 @@ void main() {
 	insertItem(&heap, 9);
 	
 	
+	
 	printHeap(&heap);
 
 	int lastnode = findLastNode(&heap, 10);
