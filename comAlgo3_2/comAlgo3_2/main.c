@@ -41,7 +41,6 @@ void spiral(int A[N][M]) {
 
 		}
 		left += 1;
-		//break;
 	}
 }
 

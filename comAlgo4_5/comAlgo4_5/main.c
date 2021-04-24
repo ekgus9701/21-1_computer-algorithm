@@ -46,7 +46,7 @@ void spans(int X[], int S[]) {
 		else {
 			S[i] = i - (A.s[A.top]);
 		}
-		printf("%d : %d  %d\n", i, S[i], A.top);
+		//printf("%d : %d  %d\n", i, S[i], A.top);
 		push(&A,i);
 		
 	}

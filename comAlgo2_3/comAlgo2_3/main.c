@@ -16,6 +16,10 @@ int recur_power(int x, int n) {
 		return recur_power(x * x, n / 2);
 	else
 		return x * recur_power(x * x, (n - 1) / 2);
+	/*
+	2^10
+	= power(2,10) = power(4,5) = 4 * power(16,2) = 4*power(256,1) =4*256
+	*/
 
 }
 
