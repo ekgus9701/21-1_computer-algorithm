@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\lg\source\repos\comAlgo11_2\comAlgo11_2\main.c(4,1): warning C4005: 'max': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1289): message : 'max'의 이전 정의를 참조하십시오.
+C:\Users\lg\source\repos\comAlgo11_2\comAlgo11_2\main.c(222): warning C4716: 'reduceExternal': 값을 반환해야 합니다.
+  comAlgo11_2.vcxproj -> C:\Users\lg\source\repos\comAlgo11_2\Debug\comAlgo11_2.exe
