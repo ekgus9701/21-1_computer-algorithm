@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\lg\source\repos\comAlgo15_1\comAlgo15_1\main.c(64,9): warning C4101: 'm' :참조되지 않은 지역 변수입니다.
+C:\Users\lg\source\repos\comAlgo15_1\comAlgo15_1\main.c(64,6): warning C4101: 'n' :참조되지 않은 지역 변수입니다.
+  comAlgo15_1.vcxproj -> C:\Users\lg\source\repos\comAlgo15_1\Debug\comAlgo15_1.exe
