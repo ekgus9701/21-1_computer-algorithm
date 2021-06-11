@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\lg\source\repos\comAlgo15_4\comAlgo15_4\main.c(5,1): warning C4005: 'max': 매크로 재정의
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1289): message : 'max'의 이전 정의를 참조하십시오.
+  comAlgo15_4.vcxproj -> C:\Users\lg\source\repos\comAlgo15_4\Debug\comAlgo15_4.exe
